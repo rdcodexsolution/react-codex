@@ -3,13 +3,9 @@ import { Component } from "react";
 
 export default class Header extends Component{
 
-    constructor(){
-        super()
-    }
-
     render(){
         return(
-            <p>Header</p>
+            <h2 align="center">{this.props.titleHead}</h2>
         )
     }
 }

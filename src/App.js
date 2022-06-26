@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Mainapp from './components/Mainapp'
+import Main from './components/Main'
 
 function App() {
   return (
         <div>
-          <h1> Welcome RD Codex React Training</h1>
-          <Mainapp />
+          <Main />
         </div>
      
   );
